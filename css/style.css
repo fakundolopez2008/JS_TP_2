@@ -1,8 +1,7 @@
-/* Grid base de 16 columnas */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f8fafc; /* gris claro */
+  background-color: #f8fafc;
   color: #333;
   display: grid;
   grid-template-columns: repeat(16, 1fr);
@@ -10,16 +9,15 @@ body {
   min-height: 100vh;
 }
 
-/* NAVBAR */
 .navbar {
   grid-column: 1 / -1;
-  background-color: #e0f7ec; /* verde muy suave */
+  background-color: #e0f7ec;
   padding: 1rem;
 }
 .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: center; /* centrado dinámico */
+  justify-content: center;
   gap: 2rem;
   margin: 0;
   padding: 0;
@@ -35,13 +33,12 @@ body {
   color: #009f57;
 }
 
-/* CONTENEDOR PRINCIPAL */
+
 .container {
-  grid-column: 2 / 16; /* deja márgenes a los costados */
+  grid-column: 2 / 16;
   padding: 2rem 0;
 }
 
-/* SECCIÓN PRODUCTOS */
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -69,7 +66,7 @@ body {
   color: #666;
 }
 .producto button {
-  background: #009f57; /* verde medio */
+  background: #009f57;
   color: white;
   border: none;
   padding: 0.6rem 1rem;
@@ -81,7 +78,6 @@ body {
   background: #007a44;
 }
 
-/* FOOTER */
 .footer {
   grid-column: 1 / -1;
   background-color: #e0f7ec;
