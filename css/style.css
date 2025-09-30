@@ -52,6 +52,9 @@ body {
   text-align: center;
   padding: 1rem;
   transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .producto img {

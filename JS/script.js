@@ -14,8 +14,7 @@ new AgroQuimico ("Metamidofós", "1 litro", 3000),
 ];
 
 let carrito = [];
-
-let botones = document.querySelectorAll("button");
+const botones = document.querySelectorAll("button");
 let contador = document.querySelector("#contador");
 botones.forEach((boton,index) => {
   boton.addEventListener("click", () => {
