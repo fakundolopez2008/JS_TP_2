@@ -1,0 +1,8 @@
+[
+  { "nombre": "Glifosato", "medida": "1 litro", "precio": 1500, "imagen": "./images/glifosato.png" },
+  { "nombre": "Atrazina", "medida": "1 litro", "precio": 2000, "imagen": "./images/atrazina-01.jpg" },
+  { "nombre": "Clorpirifos", "medida": "1 litro", "precio": 2500, "imagen": "./images/22222-35601.jpg" },
+  { "nombre": "Paraquat", "medida": "1 litro", "precio": 1800, "imagen": "./images/PARAQUAT-VECOL.png" },
+  { "nombre": "2,4-D", "medida": "1 litro", "precio": 2200, "imagen": "./images/2_4_d_action.jpg" },
+  { "nombre": "Metamidofós", "medida": "1 litro", "precio": 3000, "imagen": "./images/Modelo-3D-Metamidofos.jpg" }
+]
