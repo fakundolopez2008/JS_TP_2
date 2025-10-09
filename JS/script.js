@@ -92,7 +92,7 @@ $.getJSON("./data/productos.json")
         localStorage.setItem("carrito", JSON.stringify(carritoLista));
         Toastify({
           text: "Producto agregado al carrito",
-          duration: 3000,
+          duration: 1800,
           gravity: "bottom",
           position: "right",
           style: {
