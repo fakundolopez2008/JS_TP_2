@@ -3,17 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agroquímicos - Tienda</title>
+  <title>AgroChemestry</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous" defer></script>
+  <!--SweetAlert-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <!--Toastify-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
   <script src="./JS/script.js" defer></script>
-  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
 <body>
-  
   <nav class="navbar">
-    <div id="carrito">
-    <span id="contador">Carrito</span>
-    </div>
+  <h1 class="titulo">AGROCHEMISTRY</h1>
+
+  <div class="centrarMenu">
     <ul>
       <li><a href="#">Inicio</a></li>
       <li><a href="#">Productos</a></li>
@@ -21,7 +26,12 @@
       <li><a href="#">Contacto</a></li>
       <li><a href="#">Quienes Somos?</a></li>
     </ul>
-  </nav>
+  </div>
+
+  <div id="carrito">
+    <span id="contador">Carrito</span>
+  </div>
+</nav>
 
   <main class="container">
     <section class="productos">
